@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="question">Guess My Number!</h1>
+      <p class="the-range">(Between 1 and 20)</p>
+      <button class="btn again">Again!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="usernumber" />
+        <button class="btn check">Check!</button>
+      </section>
+      <section class="right">
+        <p class="the-command">Start guessing..</p>
+        <p class="saying-score">💯 Score: <span class="the-score">20</span></p>
+        <p class="highscore-place">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="./js.js"></script>
+  </body>
+</html>
+
+<!-- header -> represents a container for introductory 
+               content or a set of navigational links.
+      button -> represents clickable button     
+               (submitting form, starting process )
+        div -> generic container for content
+                used to group elements together for styling
+        main -> help search engines and screen readers 
+               find the main content of a page quickly
+        section -> organize content into logical 
+                   sections
+        input -> allow users to input data
+                 (entering the name)
+        span -> apply styles or scripts to a part of the
+                text without affecting the layout
+       -->
+
+<!-- div
+                    Functionality: The <div> element is a block-level element, meaning it starts on a new line and takes up the full width available by default. This makes it suitable for containing elements that need to be displayed as standalone blocks.
+                   Purpose: It allows the number (or placeholder) to be visually distinct and separated from other content on the page. -->
